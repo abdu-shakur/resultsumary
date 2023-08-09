@@ -1,0 +1,73 @@
+.attribution { font-size: 11px; text-align: center; padding-top: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: 'hankbold';
+    src: url('assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'hankboldex';
+    src: url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'hankboldmed';
+    src: url('assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+}
+
+.result{
+  background-color:hsl(252, 100%, 67%);
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 50px;
+}
+.summary{
+  padding: 50px 0px;
+}
+.sall{
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 2%;
+  font-family: hankbold;
+}
+.right{
+  float: right;
+}
+button{
+  border: none;
+  background-color: hsla(241, 74%, 18%, .8);
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 150px;
+  font-family: hankbold;
+}
+.button1{
+  border: none;
+  background-color: blue;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 150px;
+}
+.but{
+  text-align: center;
+  align-items: center;
+}
+button:hover{
+  background-color: hsla(256, 72%, 46%, 1);
+}
+
+.general{
+  display:flex;
+  border-radius: 20%;
+  justify-content: center;
+  border-color: blue;
+}
+@media (max-width: 375px) {
+.general{
+    flex-direction: column;
+}
+}
